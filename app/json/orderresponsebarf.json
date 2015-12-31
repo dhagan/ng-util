@@ -1,0 +1,21 @@
+{
+  "resourceType": "OrderResponse",
+  "appointment_id": "1234",
+  "patient": "Walker, Sam",
+  "edipi": "1234",
+  "clinical_impression_test": "test",
+  "procedure": "proc",
+  "date_resulted": "2014-12-21",
+  "status": "status",
+  "results": "tes",
+  "results_by": "Doctor,D",
+  "provider_comments": "1234",
+  "alert": "1234",
+  "order_id": "1234",
+  "date_ordered": "2013-12-21",
+  "mtf": "1234",
+  "unit_number": "1234",
+  "originating_provider": "1234",
+  "sign_flag": "Y",
+  "nurse_ack_flag": "Y"
+}

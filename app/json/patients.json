@@ -1,0 +1,4402 @@
+[
+  {
+    "_id": "patient-1016935055",
+    "_rev": "1-e308b4b1c7a1e2fb6a30a77b3af1ed21",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Lowe, Sharon Mariam. EDIPI: 1016935055</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "1016935055",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "SCPO",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Lowe"],
+        "given": "Sharon Mariam"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "3/7/1992",
+    "managingOrganization": {"reference": "Navy / Pacific Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-1152157760",
+    "_rev": "1-fba0203f0b861e81acb94066d9096cec",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Dotson, Thaddeus Dara. EDIPI: 1152157760</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "1152157760",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "SN",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Dotson"],
+        "given": "Thaddeus Dara"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "4/9/1973",
+    "managingOrganization": {"reference": "Navy / Pacific Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-1174658542",
+    "_rev": "1-b46585a5576c35354580ea14fee311d4",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Valentine, Guinevere Nolan. EDIPI: 1174658542</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "1174658542",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "LTJG",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Valentine"],
+        "given": "Guinevere Nolan"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "3/9/1969",
+    "managingOrganization": {"reference": "Navy / U.S. Fleet Cyber Command / Tenth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-1201093215",
+    "_rev": "1-f76857f50642063b5a4f7572fdf78434",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Rice, Macey Uta. EDIPI: 1201093215</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "1201093215",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "CAPT",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Rice"],
+        "given": "Macey Uta"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "8/11/1977",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Special Warfare Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-1243863425",
+    "_rev": "1-d4599555311f6be23d8716d0e8bd7c7c",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Goodman, Zenia Leonard. EDIPI: 1243863425</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "1243863425",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "UNK",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Goodman"],
+        "given": "Zenia Leonard"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "12/3/1991",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Central Command / Fifth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-1397228382",
+    "_rev": "1-794a6653d27b8164b75cd6c31f3a4715",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Buck, Kiona Lamar. EDIPI: 1397228382</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "1397228382",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "PO1",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Buck"],
+        "given": "Kiona Lamar"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "3/28/1963",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Central Command / Fifth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-143972960",
+    "_rev": "1-21f437f6f6536c2b40e2b9067853aa91",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Macias, Drake Yeo. EDIPI: 143972960</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "143972960",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "CPO",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Macias"],
+        "given": "Drake Yeo"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "2/4/1985",
+    "managingOrganization": {"reference": "Navy / Fleet Forces Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-1523466091",
+    "_rev": "1-7a2ad9892107b137ded727148c034632",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Nichols, Brady Carter. EDIPI: 1523466091</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "1523466091",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "FR",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Nichols"],
+        "given": "Brady Carter"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "11/16/1961",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Central Command / Fifth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-1611990200",
+    "_rev": "1-a3538c9a275e6508cea9efbf21cac0e7",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Lloyd, Ferdinand Lilah. EDIPI: 1611990200</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "1611990200",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "PO1",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Lloyd"],
+        "given": "Ferdinand Lilah"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "3/18/1991",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Southern Command / Fourth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-1678060422",
+    "_rev": "1-c1af1851f84da12d281d6ad1fae9d1cd",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Finley, Yeo Kalia. EDIPI: 1678060422</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "1678060422",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "CPO",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Finley"],
+        "given": "Yeo Kalia"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "11/29/1960",
+    "managingOrganization": {"reference": "Navy / U.S. Fleet Cyber Command / Tenth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-1835896378",
+    "_rev": "1-04e591e45a5d4d52bce70d6cc35efda3",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Petty, Josiah Brynn. EDIPI: 1835896378</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "1835896378",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "FA",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Petty"],
+        "given": "Josiah Brynn"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "5/20/1984",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Special Warfare Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-1907963630",
+    "_rev": "1-055c2e9dfd1630aadcc0a81ef945c836",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Barnes, Eve Hakeem. EDIPI: 1907963630</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "1907963630",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "AR",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Barnes"],
+        "given": "Eve Hakeem"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "5/3/1974",
+    "managingOrganization": {"reference": "Navy / U.S. Fleet Cyber Command / Tenth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-199485621",
+    "_rev": "1-d20723bb3e79fa91f037bd2af503f814",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Bridges, Damian Kiara. EDIPI: 199485621</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "199485621",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "VADM",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Bridges"],
+        "given": "Damian Kiara"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "10/29/1994",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Southern Command / Fourth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-2036756797",
+    "_rev": "1-868cf61d681df99bf51c0df8a5a7951e",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Ball, Bell Vladimir. EDIPI: 2036756797</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "2036756797",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "LTJG",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Ball"],
+        "given": "Bell Vladimir"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "6/2/1974",
+    "managingOrganization": {"reference": "Navy / U.S. Fleet Cyber Command / Tenth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-206592837",
+    "_rev": "1-f6f110c540f02b7ab41d377cf81b404b",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Pearson, Iona Sigourney. EDIPI: 206592837</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "206592837",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "RADM",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Pearson"],
+        "given": "Iona Sigourney"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "2/19/1974",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Special Warfare Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-2104343865",
+    "_rev": "1-deabed2da4bc93f1036cefa71969004e",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Taylor, Callum Lilah. EDIPI: 2104343865</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "2104343865",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "PO3",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Taylor"],
+        "given": "Callum Lilah"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "7/17/1969",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Special Warfare Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-2219444137",
+    "_rev": "1-46073d43c8e4edf7504d5a0d4147e450",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Stevens, Octavius Nadine. EDIPI: 2219444137</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "2219444137",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "PO1",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Stevens"],
+        "given": "Octavius Nadine"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "5/23/1981",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Central Command / Fifth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-2248839440",
+    "_rev": "1-077cb1c5a548a4f6db21766ca6fcac73",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Rios, Sasha Evangeline. EDIPI: 2248839440</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "2248839440",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "RDML",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Rios"],
+        "given": "Sasha Evangeline"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "10/24/1975",
+    "managingOrganization": {"reference": "Navy / Fleet Forces Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-2278940293",
+    "_rev": "1-2f4cf413303a19664db5827bc21bb50a",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Stein, Kamal Glenna. EDIPI: 2278940293</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "2278940293",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "CAPT",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Stein"],
+        "given": "Kamal Glenna"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "6/30/1968",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Europe / Sixth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-2320977373",
+    "_rev": "1-a9cf4e57b90e529aa991b918232dc950",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Stephenson, Ciara Talon. EDIPI: 2320977373</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "2320977373",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "FR",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Stephenson"],
+        "given": "Ciara Talon"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "9/16/1977",
+    "managingOrganization": {"reference": "Navy / Fleet Forces Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-2346878397",
+    "_rev": "1-92607bf18cd5cf03de2f9061d51758c3",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">King, Ignatius Imani. EDIPI: 2346878397</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "2346878397",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "MCPO",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["King"],
+        "given": "Ignatius Imani"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "8/30/1962",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Southern Command / Fourth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-2361680251",
+    "_rev": "1-95c656b0031bc9716c03b5eb195cf7cd",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Fleming, Mannix Vladimir. EDIPI: 2361680251</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "2361680251",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "SN",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Fleming"],
+        "given": "Mannix Vladimir"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "6/22/1983",
+    "managingOrganization": {"reference": "Navy / U.S. Fleet Cyber Command / Tenth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-2468905132",
+    "_rev": "1-03a3371c3b0fde93ac5ad9bf550f5e2c",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Hudson, Tyrone Janna. EDIPI: 2468905132</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "2468905132",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "UNK",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Hudson"],
+        "given": "Tyrone Janna"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "9/3/1965",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Southern Command / Fourth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-2681669355",
+    "_rev": "1-cce59e91edaee6d972d24264269a99f1",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Jarvis, Barrett Martina. EDIPI: 2681669355</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "2681669355",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "MCPO",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Jarvis"],
+        "given": "Barrett Martina"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "11/2/1964",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Special Warfare Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-2844620788",
+    "_rev": "1-431860c88e7cc9762e9c3617ec9295dd",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Lyons, Hashim Bradley. EDIPI: 2844620788</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "2844620788",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "CAPT",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Lyons"],
+        "given": "Hashim Bradley"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "5/3/1976",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Central Command / Fifth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-2908397031",
+    "_rev": "1-92ef37491162181271c16e2a6a89c5bb",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Schwartz, Violet Kyla. EDIPI: 2908397031</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "2908397031",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "VADM",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Schwartz"],
+        "given": "Violet Kyla"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "10/17/1977",
+    "managingOrganization": {"reference": "Navy / Pacific Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-291091066",
+    "_rev": "1-df39af81298ffdeb75d3f2a78c028812",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Schroeder, Allegra Candace. EDIPI: 291091066</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "291091066",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "SR",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Schroeder"],
+        "given": "Allegra Candace"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "5/6/1987",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Central Command / Fifth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-300647468",
+    "_rev": "1-e8828ff6b869e7212dee05d7b55a4955",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Martin, Charles Doris. EDIPI: 300647468</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "300647468",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "CAPT",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Martin"],
+        "given": "Charles Doris"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "12/31/1963",
+    "managingOrganization": {"reference": "Navy / U.S. Fleet Cyber Command / Tenth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-3103274594",
+    "_rev": "1-9290ae62ac4fa0abb8ba97fddaaa98b3",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Kane, Sade Melanie. EDIPI: 3103274594</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "3103274594",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "CWO3",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Kane"],
+        "given": "Sade Melanie"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "5/17/1977",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Southern Command / Fourth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-3176120714",
+    "_rev": "1-87b4fce5fd2187978e995cbb70230b5b",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Calderon, Ross Jameson. EDIPI: 3176120714</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "3176120714",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "MCPO",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Calderon"],
+        "given": "Ross Jameson"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "3/16/1974",
+    "managingOrganization": {"reference": "Navy / Fleet Forces Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-3483952043",
+    "_rev": "1-dbc4cd395b6c74c15d7e728951f34db8",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Hurst, Josephine Kelsie. EDIPI: 3483952043</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "3483952043",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "SR",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Hurst"],
+        "given": "Josephine Kelsie"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "7/14/1975",
+    "managingOrganization": {"reference": "Navy / Fleet Forces Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-3492811112",
+    "_rev": "1-0c1aac746522e2cc6ca064c9900cd56d",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Casey, Amelia Giselle. EDIPI: 3492811112</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "3492811112",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "UNK",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Casey"],
+        "given": "Amelia Giselle"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "3/3/1962",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Southern Command / Fourth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-3534937998",
+    "_rev": "1-15a1c4f22bc26f211f67af64bdbc57b9",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Daugherty, Vaughan Shafira. EDIPI: 3534937998</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "3534937998",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "FN",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Daugherty"],
+        "given": "Vaughan Shafira"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "2/10/1963",
+    "managingOrganization": {"reference": "Navy / U.S. Fleet Cyber Command / Tenth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-3586911901",
+    "_rev": "1-14f61b490e209eaadeabf7bccc7e0f8c",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Fitzpatrick, Jasper Michelle. EDIPI: 3586911901</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "3586911901",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "AN",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Fitzpatrick"],
+        "given": "Jasper Michelle"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "10/30/1994",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Europe / Sixth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-3613650100",
+    "_rev": "1-48166c264f68ba47eb83fb5f26213127",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Rivas, Demetrius Rachel. EDIPI: 3613650100</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "3613650100",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "LTJG",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Rivas"],
+        "given": "Demetrius Rachel"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "7/15/1962",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Special Warfare Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-3688682755",
+    "_rev": "1-a2e8c750090aae2a18699f06716189df",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Christensen, Wyatt Donovan. EDIPI: 3688682755</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "3688682755",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "LTJG",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Christensen"],
+        "given": "Wyatt Donovan"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "11/28/1968",
+    "managingOrganization": {"reference": "Navy / U.S. Fleet Cyber Command / Tenth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-3809511904",
+    "_rev": "1-58665f7cd4b66039e590d60ac5759027",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Sims, Eleanor Aurora. EDIPI: 3809511904</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "3809511904",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "LCDR",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Sims"],
+        "given": "Eleanor Aurora"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "7/13/1967",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Special Warfare Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-3953922736",
+    "_rev": "1-17d84a4e9e7bf063a4b72bc01b0e6e0f",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Goodman, Ariana Garrett. EDIPI: 3953922736</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "3953922736",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "LTJG",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Goodman"],
+        "given": "Ariana Garrett"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "3/10/1992",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Central Command / Fifth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-3990073333",
+    "_rev": "1-e2cdcb75c4b24b3381a550eefc665f2a",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Burks, Isaiah Phoebe. EDIPI: 3990073333</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "3990073333",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "RDML",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Burks"],
+        "given": "Isaiah Phoebe"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "11/30/1991",
+    "managingOrganization": {"reference": "Navy / Fleet Forces Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-4004151218",
+    "_rev": "1-7f3332125b6b571c5f57d55cc17bf994",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Kline, Petra Yoshio. EDIPI: 4004151218</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "4004151218",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "PO3",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Kline"],
+        "given": "Petra Yoshio"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "11/9/1983",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Central Command / Fifth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-4056093589",
+    "_rev": "1-42a670164b697a48b6ff5658cfc7cd55",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Duncan, Hermione Raven. EDIPI: 4056093589</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "4056093589",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "CWO4",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Duncan"],
+        "given": "Hermione Raven"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "2/21/1975",
+    "managingOrganization": {"reference": "Navy / U.S. Fleet Cyber Command / Tenth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-4143870499",
+    "_rev": "1-ff90f8e2621909fe78a7e3947c313ad5",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Hampton, Kenneth Jeremy. EDIPI: 4143870499</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "4143870499",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "VADM",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Hampton"],
+        "given": "Kenneth Jeremy"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "7/12/1985",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Central Command / Fifth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-4210597320",
+    "_rev": "1-1fe9e47cba291793936d76511e84e997",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Patrick, Bradley Deirdre. EDIPI: 4210597320</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "4210597320",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "PO1",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Patrick"],
+        "given": "Bradley Deirdre"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "10/8/1988",
+    "managingOrganization": {"reference": "Navy / Pacific Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-435066568",
+    "_rev": "1-2df43d2a1983dc9051d6bd9a18a9befa",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Owen, Bree Madaline. EDIPI: 435066568</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "435066568",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "AR",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Owen"],
+        "given": "Bree Madaline"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "10/1/1971",
+    "managingOrganization": {"reference": "Navy / U.S. Fleet Cyber Command / Tenth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-4401728001",
+    "_rev": "1-fb9e52d1b1160fb1c22fb6040f198a4c",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Duke, Aspen Samson. EDIPI: 4401728001</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "4401728001",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "CDR",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Duke"],
+        "given": "Aspen Samson"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "6/2/1964",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Central Command / Fifth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-4836404596",
+    "_rev": "1-6a1563544076e46080647b85a0bc4d54",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Beasley, Wesley Venus. EDIPI: 4836404596</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "4836404596",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "CPO",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Beasley"],
+        "given": "Wesley Venus"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "11/28/1970",
+    "managingOrganization": {"reference": "Navy / Pacific Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-484044010",
+    "_rev": "1-70461081ee798e51e36826432fc55733",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Johnson, Troy Hakeem. EDIPI: 484044010</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "484044010",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "LTJG",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Johnson"],
+        "given": "Troy Hakeem"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "11/16/1975",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Southern Command / Fourth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-4916942189",
+    "_rev": "1-5ee8f2f871cc5436d34595fe1aeeb8c6",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Barnett, Debra Geoffrey. EDIPI: 4916942189</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "4916942189",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "LCDR",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Barnett"],
+        "given": "Debra Geoffrey"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "2/2/1974",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Europe / Sixth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-5069508239",
+    "_rev": "1-944bc0c70795a017c1c38abc708331c5",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Snyder, Alisa Summer. EDIPI: 5069508239</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "5069508239",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "MCPO",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Snyder"],
+        "given": "Alisa Summer"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "5/12/1977",
+    "managingOrganization": {"reference": "Navy / Pacific Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-5102983531",
+    "_rev": "1-5c30794270f7d47d446a5e116b87de9b",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Clemons, Dieter Reese. EDIPI: 5102983531</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "5102983531",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "SA",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Clemons"],
+        "given": "Dieter Reese"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "1/24/1963",
+    "managingOrganization": {"reference": "Navy / U.S. Fleet Cyber Command / Tenth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-5152230887",
+    "_rev": "1-12351aa66e8b0be9176ccba4e9381167",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Vargas, Paul Ulla. EDIPI: 5152230887</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "5152230887",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "LT",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Vargas"],
+        "given": "Paul Ulla"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "10/5/1992",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Europe / Sixth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-5239326797",
+    "_rev": "1-f74e1f3d188b054970d912d4bf6d7123",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Miles, Ray Charde. EDIPI: 5239326797</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "5239326797",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "LTJG",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Miles"],
+        "given": "Ray Charde"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "12/4/1964",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Europe / Sixth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-5244329704",
+    "_rev": "1-f37007ff885ea9804efc2deed2559ed8",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">William, Maite Karleigh. EDIPI: 5244329704</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "5244329704",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "AN",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["William"],
+        "given": "Maite Karleigh"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "9/27/1991",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Special Warfare Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-5302931437",
+    "_rev": "1-29288cf5f39d1262c0fefe421cf9c7ee",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Jacobs, Abel Reece. EDIPI: 5302931437</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "5302931437",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "FR",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Jacobs"],
+        "given": "Abel Reece"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "2/26/1963",
+    "managingOrganization": {"reference": "Navy / U.S. Fleet Cyber Command / Tenth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-5342670563",
+    "_rev": "1-2b5285510d409700b0984e822b3ba05d",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Tillman, Yoko Elvis. EDIPI: 5342670563</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "5342670563",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "SN",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Tillman"],
+        "given": "Yoko Elvis"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "9/22/1966",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Europe / Sixth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-5499546749",
+    "_rev": "1-fcd1e52ef684da264dc7a58b76dd56ee",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Perez, Holmes Oleg. EDIPI: 5499546749</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "5499546749",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "SCPO",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Perez"],
+        "given": "Holmes Oleg"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "11/6/1960",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Southern Command / Fourth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-5513694322",
+    "_rev": "1-2f98623eb3489791b8b88e9f61ca875c",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Oneill, Kuame Phyllis. EDIPI: 5513694322</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "5513694322",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "SR",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Oneill"],
+        "given": "Kuame Phyllis"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "11/12/1995",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Southern Command / Fourth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-5536894021",
+    "_rev": "1-ab03d6f74eb86232a28b2af48c79700b",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Kelly, Larissa Britanni. EDIPI: 5536894021</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "5536894021",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "SR",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Kelly"],
+        "given": "Larissa Britanni"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "5/12/1969",
+    "managingOrganization": {"reference": "Navy / Fleet Forces Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-5608026603",
+    "_rev": "1-bb899fde1a4c8260a5f22da28dfa6478",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Figueroa, Rashad Cullen. EDIPI: 5608026603</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "5608026603",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "LTJG",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Figueroa"],
+        "given": "Rashad Cullen"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "11/10/1966",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Europe / Sixth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-588637493",
+    "_rev": "1-22dc3bb2cfec2eccb3508cbff91702c0",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Lester, Fletcher Harrison. EDIPI: 588637493</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "588637493",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "CAPT",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Lester"],
+        "given": "Fletcher Harrison"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "5/14/1979",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Special Warfare Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-5953163834",
+    "_rev": "1-eeecb433cd3238d12e1b0fb8ac4e988d",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Meyer, Kato Noelle. EDIPI: 5953163834</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "5953163834",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "VADM",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Meyer"],
+        "given": "Kato Noelle"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "11/14/1982",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Central Command / Fifth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-5963842117",
+    "_rev": "1-ef120a4f78995d8851dc9f639f5e13b6",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Tyson, Ivor Lee. EDIPI: 5963842117</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "5963842117",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "RDML",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Tyson"],
+        "given": "Ivor Lee"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "1/7/1975",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Europe / Sixth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-6121568804",
+    "_rev": "1-2440fcb7c65e2b01244211401e0b0b17",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Montgomery, Alexandra Francesca. EDIPI: 6121568804</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "6121568804",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "AA",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Montgomery"],
+        "given": "Alexandra Francesca"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "7/8/1986",
+    "managingOrganization": {"reference": "Navy / Fleet Forces Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-61658748",
+    "_rev": "1-6b0a8c2ab69c526f7dca087009bde6bb",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Hoffman, Thaddeus Avram. EDIPI: 61658748</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "61658748",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "AN",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Hoffman"],
+        "given": "Thaddeus Avram"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "11/27/1963",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Southern Command / Fourth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-6371328818",
+    "_rev": "1-95c9acfdf13436961fb1410359b1b2f2",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Butler, Fay Kitra. EDIPI: 6371328818</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "6371328818",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "CWO2",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Butler"],
+        "given": "Fay Kitra"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "8/28/1983",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Special Warfare Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-6454670228",
+    "_rev": "1-c9bfc7114e2d41f4c803957d769eb775",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Lindsey, Madonna Portia. EDIPI: 6454670228</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "6454670228",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "LTJG",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Lindsey"],
+        "given": "Madonna Portia"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "3/20/1960",
+    "managingOrganization": {"reference": "Navy / Pacific Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-6768709982",
+    "_rev": "1-2a45165ffd9a752ad818fbaed4ae3e79",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Barker, Bevis Justin. EDIPI: 6768709982</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "6768709982",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "SA",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Barker"],
+        "given": "Bevis Justin"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "10/16/1972",
+    "managingOrganization": {"reference": "Navy / U.S. Fleet Cyber Command / Tenth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-696691531",
+    "_rev": "1-6042d05abb6c6986871c73e5556c5f87",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Richardson, Aaron Mira. EDIPI: 696691531</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "696691531",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "CWO5",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Richardson"],
+        "given": "Aaron Mira"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "4/21/1965",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Europe / Sixth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-7180512221",
+    "_rev": "1-52f7a0b85dce5c600fcae5860bebb8e1",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Pennington, Maxine Christian. EDIPI: 7180512221</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "7180512221",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "SA",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Pennington"],
+        "given": "Maxine Christian"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "5/11/1992",
+    "managingOrganization": {"reference": "Navy / U.S. Fleet Cyber Command / Tenth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-7264849111",
+    "_rev": "1-65427b3885aca7483bc9b7606b99ae9b",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Dunn, Tamara Amity. EDIPI: 7264849111</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "7264849111",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "WO1",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Dunn"],
+        "given": "Tamara Amity"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "6/7/1981",
+    "managingOrganization": {"reference": "Navy / Fleet Forces Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-7329503802",
+    "_rev": "1-3928fa0e84b44b02e5fc5be4d5815ba2",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Bender, Gwendolyn Aurora. EDIPI: 7329503802</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "7329503802",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "PO3",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Bender"],
+        "given": "Gwendolyn Aurora"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "4/30/1963",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Special Warfare Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-742903405",
+    "_rev": "1-f683e3bd2b59a00883ccbb534ccc24f8",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Sharp, Hayden Octavius. EDIPI: 742903405</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "742903405",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "RADM",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Sharp"],
+        "given": "Hayden Octavius"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "4/23/1980",
+    "managingOrganization": {"reference": "Navy / Fleet Forces Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-7464181256",
+    "_rev": "1-0aeac03401e38822fa893d66ff101251",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Terrell, Brynne Vivian. EDIPI: 7464181256</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "7464181256",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "CAPT",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Terrell"],
+        "given": "Brynne Vivian"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "3/8/1968",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Central Command / Fifth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-788821030",
+    "_rev": "1-138288dd1742d925e618b74bb5a61d44",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Potter, Stewart Lunea. EDIPI: 788821030</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "788821030",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "LCDR",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Potter"],
+        "given": "Stewart Lunea"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "12/18/1987",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Special Warfare Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-8056575967",
+    "_rev": "1-32b3976eed340878c0e3a3656cbaab68",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Pittman, Carla Cailin. EDIPI: 8056575967</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "8056575967",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "AN",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Pittman"],
+        "given": "Carla Cailin"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "10/25/1992",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Special Warfare Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-8066313351",
+    "_rev": "1-acc3e7505a2995dcc9d7ea69fed9a4d8",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Abbott, Serina Alexa. EDIPI: 8066313351</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "8066313351",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "CDR",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Abbott"],
+        "given": "Serina Alexa"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "2/5/1966",
+    "managingOrganization": {"reference": "Navy / Pacific Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-8074328094",
+    "_rev": "1-4f0b92a9e0b043e29441620d036d8910",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Mullen, Thor Lee. EDIPI: 8074328094</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "8074328094",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "PO3",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Mullen"],
+        "given": "Thor Lee"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "8/27/1973",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Europe / Sixth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-8213145798",
+    "_rev": "1-fed1164395368efa666bcad40fbd4fc8",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Woodward, Lydia Kadeem. EDIPI: 8213145798</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "8213145798",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "UNK",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Woodward"],
+        "given": "Lydia Kadeem"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "3/21/1993",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Central Command / Fifth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-8280776920",
+    "_rev": "1-14a77b9a8c523b760e54b9e8e279c772",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Bender, Plato Amity. EDIPI: 8280776920</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "8280776920",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "WO1",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Bender"],
+        "given": "Plato Amity"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "1/24/1995",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Central Command / Fifth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-8287174848",
+    "_rev": "1-a1caa49b6406d7f5f7754fe8c8694164",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Mckinney, James Lara. EDIPI: 8287174848</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "8287174848",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "CAPT",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Mckinney"],
+        "given": "James Lara"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "12/19/1979",
+    "managingOrganization": {"reference": "Navy / U.S. Fleet Cyber Command / Tenth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-8385294069",
+    "_rev": "1-4647d92b9cde6c3c310681296b8af461",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Downs, Leo Megan. EDIPI: 8385294069</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "8385294069",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "RDML",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Downs"],
+        "given": "Leo Megan"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "2/14/1975",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Central Command / Fifth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-8395200245",
+    "_rev": "1-041cab05212893df2fb86599f9246094",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Stokes, Alika Evelyn. EDIPI: 8395200245</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "8395200245",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "SA",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Stokes"],
+        "given": "Alika Evelyn"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "12/9/1974",
+    "managingOrganization": {"reference": "Navy / U.S. Fleet Cyber Command / Tenth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-8494223528",
+    "_rev": "1-edae2da2e1dd37f527cb909af9025019",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Fischer, Cameron Kiara. EDIPI: 8494223528</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "8494223528",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "FR",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Fischer"],
+        "given": "Cameron Kiara"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "1/26/1968",
+    "managingOrganization": {"reference": "Navy / Fleet Forces Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-8511742232",
+    "_rev": "1-e14fcaabdde855e453b00de9baefc1df",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Horton, Abel Pearl. EDIPI: 8511742232</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "8511742232",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "AR",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Horton"],
+        "given": "Abel Pearl"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "4/3/1984",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Special Warfare Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-8659039459",
+    "_rev": "1-1b2afe0e4dd2a24a1f591e6e5f4f1d7f",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Hull, August Cleo. EDIPI: 8659039459</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "8659039459",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "AA",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Hull"],
+        "given": "August Cleo"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "11/25/1973",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Central Command / Fifth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-882868139",
+    "_rev": "1-b253c918825bd6946a8220323dcce4be",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Solomon, Magee Barbara. EDIPI: 882868139</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "882868139",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "WO1",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Solomon"],
+        "given": "Magee Barbara"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "12/25/1975",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Europe / Sixth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-8993765647",
+    "_rev": "1-35817406725ee6fd50eb3d5be284722e",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Morrow, Matthew Zeph. EDIPI: 8993765647</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "8993765647",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "VADM",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Morrow"],
+        "given": "Matthew Zeph"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "2/19/1970",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Central Command / Fifth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-9008743511",
+    "_rev": "1-9ffba795e63d4fbec25b6671dc6ee16e",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Dominguez, Vanna Hermione. EDIPI: 9008743511</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "9008743511",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "UNK",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Dominguez"],
+        "given": "Vanna Hermione"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "2/3/1972",
+    "managingOrganization": {"reference": "Navy / Fleet Forces Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-9009686123",
+    "_rev": "1-ee1c22059b975a51e8271fb8cbf88589",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Leonard, Sara Philip. EDIPI: 9009686123</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "9009686123",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "AR",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Leonard"],
+        "given": "Sara Philip"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "11/29/1976",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Europe / Sixth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-9176859444",
+    "_rev": "1-bb8e266f718ce62499a13e5abfb432ec",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Hogan, Orson Hector. EDIPI: 9176859444</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "9176859444",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "CWO5",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Hogan"],
+        "given": "Orson Hector"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "12/11/1986",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Southern Command / Fourth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-9197438385",
+    "_rev": "1-b471ba4f12019ee3fbe5a2d29edadcf0",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Hughes, Leroy Abra. EDIPI: 9197438385</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "9197438385",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "MCPO",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Hughes"],
+        "given": "Leroy Abra"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "7/7/1982",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Southern Command / Fourth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-9470286802",
+    "_rev": "1-74390c074ff6a141895693180bdbebcb",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Goff, Jaquelyn Yoko. EDIPI: 9470286802</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "9470286802",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "CWO3",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Goff"],
+        "given": "Jaquelyn Yoko"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "3/12/1990",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Southern Command / Fourth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-9511251398",
+    "_rev": "1-d087c3ebf932e31e39a2b510055ba1f2",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Colon, Drake Jerome. EDIPI: 9511251398</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "9511251398",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "RADM",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Colon"],
+        "given": "Drake Jerome"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "1/30/1990",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Southern Command / Fourth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-9518259749",
+    "_rev": "1-b2e822d5abb2fe06d756837fb0511c77",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Conley, Raja Cody. EDIPI: 9518259749</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "9518259749",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "CWO5",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Conley"],
+        "given": "Raja Cody"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "9/4/1991",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Europe / Sixth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-9575589635",
+    "_rev": "1-79fa7546da95864ca118e340db7de12b",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Villarreal, Kirby Avram. EDIPI: 9575589635</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "9575589635",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "CPO",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Villarreal"],
+        "given": "Kirby Avram"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "12/29/1992",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Special Warfare Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-965560102",
+    "_rev": "1-e73f2e8e64cc30b515824ad2072e305f",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Cunningham, Quynn Branden. EDIPI: 965560102</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "965560102",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "SA",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Cunningham"],
+        "given": "Quynn Branden"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "F",
+          "display": "Female"
+        }
+      ]
+    },
+    "birthDate": "12/28/1960",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Central Command / Fifth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-9666932147",
+    "_rev": "1-9fa00315be9743bdb270eb27c74b5b0b",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Avila, Neville Victor. EDIPI: 9666932147</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "9666932147",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "LT",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Avila"],
+        "given": "Neville Victor"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "9/19/1977",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Forces Europe / Sixth Fleet"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-976211619",
+    "_rev": "1-f3200e920a419a967c2e9cbd07b30d8f",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Hawkins, Jack Connor. EDIPI: 976211619</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "976211619",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "CWO3",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Hawkins"],
+        "given": "Jack Connor"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "10/4/1969",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Special Warfare Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-9848070616",
+    "_rev": "1-775f450256a1ff6b40400502e54eb3bd",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">Mcclure, Xaviera Geoffrey. EDIPI: 9848070616</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "9848070616",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "SR",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["Mcclure"],
+        "given": "Xaviera Geoffrey"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "M",
+          "display": "Male"
+        }
+      ]
+    },
+    "birthDate": "11/21/1986",
+    "managingOrganization": {"reference": "Navy / U.S. Naval Special Warfare Command"},
+    "active": "true"
+  },
+  {
+    "_id": "patient-edipi",
+    "_rev": "1-ac5e65f8ab991e12e53005002d53e5f2",
+    "resourceType": "Patient",
+    "text": {
+      "status": "generated",
+      "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">lastName, firstName MiddleName. EDIPI: edipi</div>"
+    },
+    "identifier": [
+      {
+        "use": "offical",
+        "label": "EDIPI",
+        "system": "",
+        "value": "edipi",
+        "assigner": "Department of Defense"
+      },
+      {
+        "use": "offical",
+        "label": "RANK",
+        "system": "",
+        "value": "rank",
+        "assigner": "Department of Defense"
+      }
+    ],
+    "name": [
+      {
+        "use": "official",
+        "family": ["lastName"],
+        "given": "firstName MiddleName"
+      }
+    ],
+    "gender": {
+      "coding": [
+        {
+          "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+          "code": "g",
+          "display": "gender"
+        }
+      ]
+    },
+    "birthDate": "birthDate",
+    "managingOrganization": {"reference": "service / organization"},
+    "active": "true"
+  }
+]

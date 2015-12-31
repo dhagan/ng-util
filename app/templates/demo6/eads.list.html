@@ -1,0 +1,54 @@
+<br/>
+<h5><strong><mark>eADS Patient Demographics ({{rows}})</mark></strong></h5>
+<div class="well well-sm">
+    <input type="text" ng-model="search" class="search-query" placeholder="Search">
+
+    <span class="glyphicon glyphicon-search" tooltip="Type any search criteria"></span>
+    <!--<a class="btn pull-right" ng-click="alert('TODO')"></i> Select All</a>-->
+    <button ng-click="selectAll()"
+        class="btn pull-right btn-sm" ng-click="selectAll()" ng-bind="buttonText">Select All
+    </button>
+
+</div>
+
+<table class="table table-condensed table-striped table-bordered table-hover">
+
+    <tr>
+        <th ng-repeat="column in headerColumns" compile="column"></th>
+    </tr>
+    <tr ng-repeat="row in data">
+        <td class="text-center"><input type="checkbox" ng-model="row.isChecked" ng-click="createNewEnable()"/></td>
+        <td>{{row.edipi}}</td>
+        <td>{{row.firstName}} {{row.lastName}}</td>
+        <td>{{row.pcsDate}}</td>
+        <td class="text-center"><a href="#/eads/edit/{{row.edipi}}"><i class="glyphicon glyphicon-search"
+           tooltip="Demographic Data Lookup"></i></a>
+        </td>
+    </tr>
+
+</table>
+
+<div class="form-group">
+    <!--<button ng-click="cancel()"-->
+            <!--class="btn btn-primary btn-sm" disabled="disabled">Cancel</a>-->
+    <!--</button>-->
+    <button ng-click="create()"
+            class="btn btn-primary btn-sm" ng-disabled="isCreateNew">Create New Patient(s)
+    </button>
+    <!--<button ng-click="save()" ng-disabled="isClean() || myForm.$invalid"-->
+            <!--class="btn btn-primary btn-sm" disabled="disabled">Submit-->
+    <!--</button>-->
+    <button ng-click="destroy()"
+            ng-show="options.patient._id" class="btn btn-danger">Delete
+    </button>
+
+</div>
+
+<button class="btn btn-default btn-sm" ng-click="isCollapsed = !isCollapsed">{{!isCollapsed && ' Show JSON' || ' Hide JSON'}}<i
+        class="pull-right glyphicon"
+        ng-class="{'glyphicon-chevron-down': !isCollapsed, 'glyphicon-chevron-right': isCollapsed}"></i></button>
+<hr>
+<div collapse="!isCollapsed">
+    <pre>{{data|json}}</pre>
+</div>
+

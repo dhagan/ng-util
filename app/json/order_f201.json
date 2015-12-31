@@ -1,0 +1,45 @@
+{
+  "resourceType": "Order",
+  "text": {
+    "status": "generated",
+    "div": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<div xmlns=\"http://www.w3.org/1999/xhtml\">&#x0A;      &#x0A;      \r\n  <p>&#x0A;        &#x0A;        \r\n    <b>Generated Narrative</b>&#x0A;      </p>&#x0A;      &#x0A;      \r\n  <p>&#x0A;        &#x0A;        \r\n    <b>date</b>: 5-Mar 2013 12:0&#x0A;      </p>&#x0A;      &#x0A;      \r\n  <p>&#x0A;        &#x0A;        \r\n    <b>subject</b>: Roel&#x0A;      </p>&#x0A;      &#x0A;      \r\n  <p>&#x0A;        &#x0A;        \r\n    <b>source</b>: &#x0A;        &#x0A;        \r\n    <a href=\"practitioner-example-f201-ab.html\">UZI-nummer = 12345678901 (official); Dokter Bronsig(official); Male; birthDate: 24-Dec 1956; Implementation of planned interventions; Medical oncologist</a>&#x0A;      </p>&#x0A;      &#x0A;      \r\n  <p>&#x0A;        &#x0A;        \r\n    <b>target</b>: Juri van Gelder&#x0A;      </p>&#x0A;      &#x0A;      \r\n  <p>&#x0A;        &#x0A;        \r\n    <b>reason</b>: &#x0A;        &#x0A;        \r\n    <span title=\"Codes: \">It concerns a one-off order for consultation in order to evaluate the stairs walking ability of Roel.</span>&#x0A;      </p>&#x0A;      &#x0A;      \r\n  <h3>Whens</h3>&#x0A;      &#x0A;      \r\n  <table class=\"grid\">&#x0A;        &#x0A;        \r\n    <tr>&#x0A;          &#x0A;          \r\n      <td>&#x0A;            &#x0A;            \r\n        <b>Code</b>&#x0A;          </td>&#x0A;          &#x0A;          \r\n      <td>&#x0A;            &#x0A;            \r\n        <b>Schedule</b>&#x0A;          </td>&#x0A;        </tr>&#x0A;        &#x0A;        \r\n    <tr>&#x0A;          &#x0A;          \r\n      <td>&#x0A;            &#x0A;            \r\n        <span title=\"Codes: {http://snomed.info/sct 394848005}\">Normal priority</span>&#x0A;          </td>&#x0A;          &#x0A;          \r\n      <td> </td>&#x0A;        </tr>&#x0A;      </table>&#x0A;      &#x0A;      \r\n  <p>&#x0A;        &#x0A;        \r\n    <b>detail</b>: Consultation, not yet developed&#x0A;      </p>&#x0A;    </div>"
+  },
+  "date": "2013-03-05",
+  "subject": {
+    "reference": "",
+    "display": ""
+  },
+  "source": {
+    "reference": ""
+  },
+  "target": {
+    "reference": "",
+    "display": "Juri van Gelder"
+  },
+  "reasonCodeableConcept": {
+    "text": "It concerns a one-off order for consultation in order to evaluate the stairs walking ability of Roel."
+  },
+  "when": {
+    "code": {
+      "coding": [
+        {
+          "system": "http://snomed.info/sct",
+          "code": "394848005",
+          "display": "Normal priority"
+        }
+      ]
+    }
+  },
+  "detail": [
+    {
+      "display": ""
+    }
+  ],
+  "reason": "Routine",
+  "procedure": {
+    "display": ""
+  },
+  "status": "",
+  "requested_date_from": "",
+  "requested_date_to": ""
+}

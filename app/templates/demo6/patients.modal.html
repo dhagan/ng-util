@@ -1,0 +1,89 @@
+<div class="modal-header">
+    <h3 class="modal-title">Request ADS Record</h3>
+</div>
+<div class="well-lg">
+    <form name="myForm" class="form-horizontal" role="form">
+        <div class="form-group" ng-class="{'has-error': myForm.firstName.$invalid}">
+            <label class="col-sm-3 control-label">First Name</label>
+
+            <div class="col-sm-9">
+                <input class="form-control" type="text" name="firstName" ng-model="options.patient.firstName"
+                       required/>
+            </div>
+        </div>
+        <div class="form-group" ng-class="{'has-error': myForm.lastName.$invalid}">
+            <label class="col-sm-3 control-label">Last Name</label>
+
+            <div class="col-sm-9"><input class="form-control" type="text" name="lastName"
+                                         ng-model="options.patient.lastName" required/>
+            </div>
+        </div>
+        <div class="form-group" ng-class="{'has-error': myForm.ssn.$invalid}">
+            <label class="col-sm-3 control-label">SSN, Last 4</label>
+
+            <div class="col-sm-9">
+                <input class="form-control" type="text" name="ssn" ng-model="options.patient.ssn" maxlength="4"
+                       required/>
+            </div>
+        </div>
+        <div class="form-group" ng-class="{'has-error': myForm.edipi.$invalid}">
+            <label class="col-sm-3 control-label">EDIPI</label>
+
+            <div class="col-sm-9">
+                <input class="form-control" type="text" name="edipi" ng-model="options.patient.edipi" maxlength="10"
+                       required/>
+            </div>
+        </div>
+        <div class="form-group" ng-class="{'has-error': myForm.dmisid.$invalid}">
+            <label class="col-sm-3 control-label">TO DMIS ID</label>
+
+            <div class="col-sm-9">
+                <input class="form-control" type="text" name="dmisid" ng-model="DMISID_hack"
+                       ng-init="DMISID_hack='9988'" ng-disabled="true" ng-minlength="4" maxlength="4"
+                       required/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Priority</label>
+
+            <div class="col-sm-9">
+                <select class="form-control" ng-model="options.patient.priority"
+                        ng-options="item for item in options.priorities"></select>
+
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-3 control-label">Reason</label>
+
+            <div class="col-sm-9">
+                <select class="form-control" ng-model="options.patient.reason"
+                        ng-options="item for item in options.reasons"></select>
+            </div>
+        </div>
+    </form>
+</div>
+<div class="modal-footer">
+    <div class="form-group">
+        <a ng-click="cancel()" class="btn">Cancel</a>
+
+        <button ng-click="save()" ng-disabled="isClean() || myForm.$invalid"
+                class="btn btn-primary">Submit
+        </button>
+        <button ng-click="destroy()"
+                ng-show="options.patient._id" class="btn btn-danger">Delete
+        </button>
+
+    </div>
+</div>
+<!--
+<button class="btn btn-default" ng-click="isCollapsed = !isCollapsed">json</button>
+<hr>
+<div collapse="isCollapsed">
+<tt>myForm.$error = {{myForm.$error}}</tt><br>
+<tt>myForm.$pristine = {{myForm.$pristine}}</tt><br>
+<tt>myForm.$dirty = {{myForm.$dirty}}</tt><br>
+<tt>myForm.$valid = {{myForm.$valid}}</tt><br>
+<tt>myForm.$invalid = {{myForm.$invalid}}</tt><br>
+<pre>{{options.patient|json}}</pre>
+</div>
+-->

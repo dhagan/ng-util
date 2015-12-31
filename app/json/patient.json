@@ -1,0 +1,63 @@
+{
+  "resourceType": "Patient",
+  "text": {
+    "status": "generated",
+    "div": "<div></div>"
+  },
+  "identifier": [
+    {
+      "label": "edipi",
+      "system": "http://hl7.org/fhir/sid/us-ssn",
+      "value": "123456789"
+    },
+    {
+      "label": "Rank",
+      "system": "http://hl7.org/fhir/sid/us-ssn",
+      "value": ""
+    },
+    {
+      "label": "Race",
+      "system": "http://hl7.org/fhir/sid/us-ssn",
+      "value": ""
+    }
+  ],
+  "name": [
+    {
+      "use": "official",
+      "family": [
+        "Doe"
+      ],
+      "given": [
+        "John"
+      ]
+    }
+  ],
+  "telecom": [
+    {
+      "system": "phone",
+      "value": "555-555-2003",
+      "use": "work"
+    }
+  ],
+  "gender": {
+    "coding": [
+      {
+        "system": "http://hl7.org/fhir/v3/AdministrativeGender",
+        "code": "M"
+      }
+    ]
+  },
+  "birthDate": "1973-05-31",
+  "address": [
+    {
+      "use": "home",
+      "line": [
+        "2222 Home Street"
+      ]
+    }
+  ],
+  "managingOrganization": {
+    "reference": "Organization/hl7"
+  },
+  "active": true
+}

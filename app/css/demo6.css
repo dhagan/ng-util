@@ -1,0 +1,70 @@
+input[type=checkbox]:checked {
+    background-color: red !important;
+    background: #888 !important;
+    border: none !important;
+    color: #000 !important;
+}
+
+input#customId {
+    background: #888 !important;
+    border: none !important;
+    color: #000 !important;
+}
+
+/*
+input.ng-invalid {
+    background-color: #fdd !important;
+}
+
+input.ng-valid {
+    background-color: #dfd !important;
+}
+*/
+
+.table > thead > tr > .default_white,
+.table > tbody > tr > .default_white,
+.table > tfoot > tr > .default_white,
+.table > thead > .default_white > td,
+.table > tbody > .default_white > td,
+.table > tfoot > .default_white > td,
+.table > thead > .default_white > th,
+.table > tbody > .default_white > th,
+.table > tfoot > .default_white > th {
+    background-color: #ffffff;
+}
+
+.table > thead > tr > .default_grey,
+.table > tbody > tr > .default_grey,
+.table > tfoot > tr > .default_grey,
+.table > thead > .default_grey > td,
+.table > tbody > .default_grey > td,
+.table > tfoot > .default_grey > td,
+.table > thead > .default_grey > th,
+.table > tbody > .default_grey > th,
+.table > tfoot > .default_grey > th {
+    background-color: #d3d3d3;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.glyphicon-2x {
+    font-size: 24px;
+}
+
+.btn_cell {
+    min-height: 30px;
+    min-width: 130px;
+    #margin-left: 10px;
+    #margin-top: 10px;
+}
+
+.gridStyle {
+    border: 1px solid rgb(212, 212, 212);
+    height: 300px;
+}

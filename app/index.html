@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+<div ng-controller="mainCtrl" ng-cloak>
+    <head>
+
+        <title>{{appName}}</title>
+        <!-- Bootstrap CSS -->
+        <!--
+        <link href="css/cosmo-bootstrap.min.css" rel="stylesheet">
+        -->
+        <link href="//cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.4/toaster.css" rel="stylesheet"/>
+
+        <!--
+        <link href="css/themeicon/css/app.css" rel="stylesheet"/>
+        <link href="css/themeicon/css/theme-a.css" rel="stylesheet"/>
+        -->
+
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet"/>
+
+        <!-- Optional theme -->
+        <!--
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+        -->
+        <link href="css/demo6.css" rel="stylesheet">
+
+        <style>
+            .node {
+                stroke: #fff;
+                stroke-width: 1.5px;
+            }
+
+            .link {
+                stroke: #999;
+                stroke-opacity: .6;
+            }
+        </style>
+
+    </head>
+    </head>
+    <body>
+    <div class="container">
+        <div class="main-content">
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation"><a href="#/eads/list
+                " data-target="#list" aria-controls="messages" role="tab" data-toggle="tab"><i
+                        class="glyphicon glyphicon-list-alt"></i> eADS</a>
+                </li>
+                <li role="presentation"><a href="#/patients/list
+                " data-target="#list" aria-controls="messages" role="tab" data-toggle="tab"><i
+                        class="glyphicon glyphicon-list-alt"></i> Patients</a>
+                </li>
+            </ul>
+            <div class="row">
+
+                <div class="col-lg-12 col-md-12">
+
+                    <div ui-view></div>
+                    <toaster-container
+                            toaster-options="{'time-out': 3000, 'close-button':true, 'position-class': 'toast-bottom-right'}"></toaster-container>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Angular -->
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-route.js"></script>
+    <!-- UI-Router -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.11/angular-ui-router.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-resource.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-animate.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular-cookies.min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/0.12.1/ui-bootstrap-tpls.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angularjs-toaster/0.4.4/toaster.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.3.0/moment-timezone.js"></script>
+
+    <!--<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>-->
+
+
+    <script src="js/demo6/config.js"></script>
+    <script src="js/demo6/app.js"></script>
+    <script src="js/demo6/services.js"></script>
+    <script src="js/demo6/filter.js"></script>
+    <script src="js/demo6/routes.js"></script>
+
+    <!-- controllers -->
+    <script src="js/demo6/controllers/main.js"></script>
+    <script src="js/demo6/controllers/patients.js"></script>
+    <script src="js/demo6/controllers/eads.js"></script>
+
+
+    </body>
+</div>
+</html>

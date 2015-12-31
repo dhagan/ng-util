@@ -1,0 +1,13 @@
+{
+  "resourceType": "Encounter",
+  "text": {
+    "status": "generated",
+    "div": "<div>Encounter with patient @example</div>"
+  },
+  "status": "Service member fell from 2nd story roof, landing on  back.",
+  "class": "inpatient",
+  "subject": {
+    "reference": "Patient/example",
+    "edipi": "123456789"
+  }
+}

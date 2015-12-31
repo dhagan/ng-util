@@ -1,0 +1,125 @@
+<br/>
+<h4><strong>eADS Patient Demographic Data: <mark>EDIPI {{edipi}} {{lastName}}, {{firstName}}</mark></strong></h4>
+<hr/>
+<style>
+    .form-horizontal .form-group{
+        margin-bottom: 0;
+    }
+    .form-horizontal .form-group label{
+        text-align: right;
+    }
+</style>
+<form name="myForm" class="form-horizontal" role="form">
+    <div class="form-group">
+        <label class="col-sm-2">First Name</label> {{firstName}} {{middleName}}.
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2">Last Name</label> {{lastName}}
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2">EDIPI</label> {{edipi}}
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2">Date of Birth</label> {{dob}}
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2">Gender</label> {{gender}}
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2">Marital Status</label> {{maritalStatus}}
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2">Religion</label> {{religion}}
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2">UIC</label> {{uic}}
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2">Parent UIC</label> {{parentUic}}
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2">UIC Location</label> {{uicLocation}}
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2">Original Name</label> {{originalName}}
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2">Basic Active Duty</label> {{basicActiveDuty}}
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2">Duty Status</label> {{dutyStatus}}
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2">Pay Grade</label> {{payGrade}}
+    </div>
+    <hr/>
+    <!--<div class="form-group" ng-class="{'has-error': myForm.identifier[0].value.$invalid}">-->
+        <!--<label class="col-sm-2 control-label">EDIPI</label>-->
+
+        <!--<div class="col-sm-6">-->
+            <!--{{patient.edipi}}-->
+            <!--<span ng-show="myForm.identifier[0].value.$error.required" class="help-inline">Required</span>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="form-group" ng-class="{'has-error': myForm.identifier[0].value.$invalid}">-->
+        <!--<label class="col-sm-2 control-label">TO DMIS ID</label>-->
+
+        <!--<div class="col-sm-6">-->
+            <!--<input class="form-control" type="text" name="identifier[0].value" ng-model="DMISID_hack"-->
+                   <!--ng-init="DMISID_hack='121212'" ng-disabled="true"-->
+                   <!--required>-->
+            <!--<span ng-show="myForm.identifier[0].value.$error.required" class="help-inline">Required</span>-->
+        <!--</div>-->
+    <!--</div>-->
+
+    <!--<div class="form-group">-->
+        <!--<label class="col-sm-2 control-label">Priority</label>-->
+
+        <!--<div class="col-sm-6">-->
+            <!--<select class="form-control" ng-model="patient.priority"-->
+                    <!--ng-options="item for item in priorities"></select>-->
+            <!--&lt;!&ndash;-->
+            <!--<pre>{{patient.gender.coding[0].code | json}}</pre>-->
+            <!--&ndash;&gt;-->
+
+        <!--</div>-->
+    <!--</div>-->
+    <!--<div class="form-group">-->
+        <!--<label class="col-sm-2 control-label">Reason</label>-->
+
+        <!--<div class="col-sm-6">-->
+            <!--<select class="form-control" ng-model="patient.reason"-->
+                    <!--ng-options="item for item in reasons"></select>-->
+            <!--&lt;!&ndash;-->
+            <!--<pre>{{patient.gender.coding[0].code | json}}</pre>-->
+            <!--&ndash;&gt;-->
+
+        <!--</div>-->
+    <!--</div>-->
+
+    <div class="form-group">
+        <div class="col-sm-offset-0 col-sm-10">
+            <a href="#/eads/list" class="btn btn-default btn-sm">Cancel</a>
+            <!--<button ng-click="save()" ng-disabled="isClean() || myForm.$invalid"-->
+                    <!--class="btn btn-primary btn-sm">Submit-->
+            <!--</button>-->
+            <button ng-click="destroy()"
+                    ng-show="patient._id" class="btn btn-danger">Delete
+            </button>
+        </div>
+    </div>
+</form>
+
+<button class="btn btn-default btn-sm" ng-click="isCollapsed = !isCollapsed">{{!isCollapsed && ' Show JSON' || ' Hide JSON'}}<i
+        class="pull-right glyphicon"
+        ng-class="{'glyphicon-chevron-down': !isCollapsed, 'glyphicon-chevron-right': isCollapsed}"></i></button>
+<hr>
+<div collapse="!isCollapsed">
+    <tt>myForm.$error = {{myForm.$error}}</tt><br>
+    <tt>myForm.$pristine = {{myForm.$pristine}}</tt><br>
+    <tt>myForm.$dirty = {{myForm.$dirty}}</tt><br>
+    <tt>myForm.$valid = {{myForm.$valid}}</tt><br>
+    <tt>myForm.$invalid = {{myForm.$invalid}}</tt><br>
+    <pre>{{patient|json}}</pre>
+</div>
+
