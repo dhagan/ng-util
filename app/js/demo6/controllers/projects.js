@@ -3,8 +3,8 @@
  */
 
 
-myapp.controller('eadsCtrl', function ($scope) {
-    console.log('eadsCtrl');
+myapp.controller('projectsCtrl', function ($scope) {
+    console.log('projectsCtrl');
 });
 
 myapp.controller('ModalInstanceCtrl', function ($scope, $modalInstance, options) {
@@ -21,20 +21,29 @@ myapp.controller('ModalInstanceCtrl', function ($scope, $modalInstance, options)
 });
 
 
-myapp.controller('eadsListCtrl', function ($scope, $http, $modal, $location, GENERAL_CONFIG, toaster) {
-    $scope.$parent.$root.pageHeader = "eADS - Patient Demographics";
+myapp.controller('projectsListCtrl', function ($scope, $http, $modal, $location, GENERAL_CONFIG, toaster) {
+    $scope.$parent.$root.pageHeader = "Projects - Patient Demographics";
     $scope.isCreateNew = true;
-    $http.get('json/eads.json')
+    $http.get('json/projects.json')
         .then(function (res) {
             $scope.data = res.data;
             $scope.rows = res.data.length;
         });
-    //var addButton = '<a href="#/eads/detail"><i class="glyphicon glyphicon-plus-sign"></i></a>';
-    var editToken = '<a href="#/eads/edit/{{row.edipi}}"><i class="glyphicon glyphicon-pencil"></i></a>';
 
-    $scope.headerColumns = [' ', 'EDIPI', 'Name', 'Receive Date', ''];
 
-    $scope.patient = {};
+    var BASE_URL = 'http://localhost:7990/rest/api/1.0/';
+    var PROJECTS_URL = 'projects';
+    $http.get(BASE_URL + PROJECTS_URL)
+        .then(function (res) {
+            $scope.data = res.data;
+            $scope.rows = res.data.length;
+        });
+    //var addButton = '<a href="#/projects/detail"><i class="glyphicon glyphicon-plus-sign"></i></a>';
+    var editToken = '<a href="#/projects/edit/{{row.edipi}}"><i class="glyphicon glyphicon-pencil"></i></a>';
+
+    $scope.headerColumns = ['Key', 'Name', 'Type',  'Description',''];
+
+        $scope.patient = {};
 
     $scope.alert = function (msg) {
         alert(msg);
@@ -43,31 +52,31 @@ myapp.controller('eadsListCtrl', function ($scope, $http, $modal, $location, GEN
     $scope.buttonText = "Select All";
 
     $scope.selectAll = function () {
-        var rowcount =  $scope.data.length;
+        var rowcount = $scope.data.length;
         //console.log('selectAll :: rowcount == ' + rowcount);
         //console.log('printMe :: $scope.data = ' + JSON.stringify($scope.data));
 
         if ($scope.buttonText == "Select All") {
-                $scope.data.forEach(function(model){
-                    model.isChecked = true;
-                    //console.log ('isChecked = ' + JSON.stringify(model.isChecked))
-                });
+            $scope.data.forEach(function (model) {
+                model.isChecked = true;
+                //console.log ('isChecked = ' + JSON.stringify(model.isChecked))
+            });
             $scope.isCreateNew = false;
             $scope.buttonText = "Deselect All";
         }
         else if ($scope.buttonText == "Deselect All") {
-            $scope.data.forEach(function(model){
+            $scope.data.forEach(function (model) {
                 model.isChecked = false;
             });
             $scope.buttonText = "Select All";
             $scope.isCreateNew = true;
         }
-     } ;
+    };
 
-    $scope.createNewEnable = function(model) {
+    $scope.createNewEnable = function (model) {
         var checked = new Array();
 
-        for(cnt = 0; cnt < $scope.data.length; cnt++){
+        for (cnt = 0; cnt < $scope.data.length; cnt++) {
             var isChecked = $scope.data[cnt].isChecked;
             if ($scope.data[cnt].isChecked) {
                 checked [cnt]++;
@@ -82,14 +91,14 @@ myapp.controller('eadsListCtrl', function ($scope, $http, $modal, $location, GEN
         }
     };
 
-    $scope.printMe = function(model){
-      console.log('printMe :: model = ' + JSON.stringify(model));
+    $scope.printMe = function (model) {
+        console.log('printMe :: model = ' + JSON.stringify(model));
     };
 
     $scope.open = function (size) {
 
         var modalInstance = $modal.open({
-            templateUrl: 'templates/demo6/patients.modal.html',
+            templateUrl: 'templates/demo6/projects.modal.html',
             controller: 'ModalInstanceCtrl',
             size: size,
             resolve: {
@@ -212,7 +221,7 @@ var patient_gender = [
     "M", "F"
 ];
 
-myapp.controller('eadsEditCtrl', function ($scope, $http, $location, $stateParams, _) {
+myapp.controller('projectsEditCtrl', function ($scope, $http, $location, $stateParams, _) {
     $scope.$parent.$root.pageHeader = "Update Patients";
     var self = this;
 
@@ -232,7 +241,7 @@ myapp.controller('eadsEditCtrl', function ($scope, $http, $location, $stateParam
     $scope.races = appointment_races;
     $scope.ranks = appointment_ranks;
 
-    $http.get('json/eads_pd.json')
+    $http.get('json/projects_pd.json')
         .then(function (res) {
             var patients = res.data;
 
@@ -276,7 +285,6 @@ myapp.controller('eadsEditCtrl', function ($scope, $http, $location, $stateParam
             $location.path('/');
         });
     };
-
 
 
     $scope.save = function () {

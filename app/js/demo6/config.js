@@ -5,7 +5,7 @@ var config_module = angular.module('demo6.config', []);
 
 var config_data = {
     'GENERAL_CONFIG': {
-        'APP_NAME': 'Demo6-eADS'
+        'APP_NAME': 'Demo6-Projects'
     }
 };
 

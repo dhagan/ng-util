@@ -15,7 +15,7 @@ var myapp = angular.module('myapp',
 myapp.run(['$location',
     function ($location) {
         //$location.path('/patients/list');
-        $location.path('/eads/list');
+        $location.path('/projects/list');
     }]);
 
 myapp.directive('compile', ['$compile', function ($compile) {

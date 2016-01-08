@@ -1,19 +1,19 @@
 myapp.config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
-        .state('eads', {
-            url: "/eads",
+        .state('projects', {
+            url: "/projects",
             templateUrl: "templates/demo6/ui-view.html",
-            controller: 'eadsCtrl'
+            controller: 'projectsCtrl'
         })
-        .state('eads.list', {
+        .state('projects.list', {
             url: "/list",
-            templateUrl: "templates/demo6/eads.list.html",
-            controller: 'eadsListCtrl'
+            templateUrl: "templates/demo6/projects.list.html",
+            controller: 'projectsListCtrl'
         })
-        .state('eads.edit', {
+        .state('projects.edit', {
             url: "/edit/:edipi",
-            templateUrl: "templates/demo6/eads.detail.html",
-            controller: 'eadsEditCtrl'
+            templateUrl: "templates/demo6/projects.detail.html",
+            controller: 'projectsEditCtrl'
         })
         .state('patients', {
             url: "/patients",
@@ -37,3 +37,4 @@ myapp.config(function ($stateProvider, $urlRouterProvider) {
         })
 
 });
+
